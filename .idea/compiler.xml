@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-eureka-server" />
+        <module name="spring-eureka-common" />
+        <module name="spring-eureka-zuul" />
+        <module name="spring-eureka-course" />
+        <module name="spring-eureka-auth" />
+        <module name="spring-eureka-student" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-eureka-auth" target="1.8" />
+      <module name="spring-eureka-common" target="1.8" />
+      <module name="spring-eureka-course" target="1.8" />
+      <module name="spring-eureka-server" target="1.8" />
+      <module name="spring-eureka-student" target="1.8" />
+      <module name="spring-eureka-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-eureka-auth" options="-parameters" />
+      <module name="spring-eureka-common" options="-parameters" />
+      <module name="spring-eureka-course" options="-parameters" />
+      <module name="spring-eureka-server" options="-parameters" />
+      <module name="spring-eureka-student" options="-parameters" />
+      <module name="spring-eureka-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

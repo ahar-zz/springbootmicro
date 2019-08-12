@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices-spring-boot.iml" filepath="$PROJECT_DIR$/.idea/microservices-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-auth/spring-eureka-auth.iml" filepath="$PROJECT_DIR$/spring-eureka-auth/spring-eureka-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-common/spring-eureka-common.iml" filepath="$PROJECT_DIR$/spring-eureka-common/spring-eureka-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-image/spring-eureka-course.iml" filepath="$PROJECT_DIR$/spring-eureka-image/spring-eureka-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-server/spring-eureka-server.iml" filepath="$PROJECT_DIR$/spring-eureka-server/spring-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-gallery/spring-eureka-student.iml" filepath="$PROJECT_DIR$/spring-eureka-gallery/spring-eureka-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-zuul/spring-eureka-zuul.iml" filepath="$PROJECT_DIR$/spring-eureka-zuul/spring-eureka-zuul.iml" />
+    </modules>
+  </component>
+</project>
